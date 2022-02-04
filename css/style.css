@@ -7,6 +7,10 @@ body {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 .container {
     max-width: 1280px;
     width: 100%;
@@ -20,7 +24,6 @@ header {
 }
 
 .nav-link {
-    text-decoration: none;
     text-transform: uppercase;
     font-weight: 600;
     color: #777;
@@ -44,4 +47,32 @@ h1 {
 
 .encontre-seu-estilo-imagens img:first-child{
     margin-right: 60px;
+}
+
+.footer {
+    background-color: #c2185b;
+    padding: 30px 30px;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-link, h3 a, .footer {
+    color: #FFF;
+}
+
+.categorias, .institucional {
+    display: flex;
+    flex-direction: column;
+}
+
+.categorias {
+    margin-right: 100px;
+}
+
+.logo-footer {
+    width: 30%;
+    margin-right: auto;
 }
