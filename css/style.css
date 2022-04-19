@@ -50,6 +50,11 @@ h1 {
     margin-right: 60px;
 }
 
+.descontos {
+    margin-top: 120px;
+    
+}
+
 h2 {
     text-align: center;
     font-size: 40px;
@@ -67,26 +72,38 @@ h3 {
 
 .seu-desconto {
     background-color: #c2185b;
-    padding: 30px;
+    height: 640px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .imagem-desconto {
     display: flex;
     align-items: center;
     justify-content:space-evenly;
-    margin-bottom: 40px;
-    background-color: white;
 }
 
+.item-imagem-desconto, p {
+    background-color: #FFF;
+    margin-left: 10px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+}
 
 .footer {
     background-color: #c2185b;
     padding: 30px 30px;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .footer .container {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
+    margin-left: 30px;
 }
 
 .footer-link, h3 a, .footer {
@@ -105,6 +122,10 @@ h3 {
 .logo-footer {
     width: 30%;
     margin-right: auto;
+}
+
+.logo-footer > p {
+    background-color: #c2185b;
 }
 
 .contato {
